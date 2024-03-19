@@ -16,6 +16,7 @@ function Contact() {
         <ContactSection>
           <ContactContainer>
             <p>{translate("title")}</p>
+            <p>email</p>
           </ContactContainer>
         </ContactSection>
 
