@@ -6,19 +6,19 @@ import Technology from "@/home/Technology";
 import Staff from "@/home/Staff";
 import Space from "@/home/Space";
 import Footer from "@/structure/Footer";
-import AnimatedDiv from "@/components/AnimatedDiv";
+
 
 function Home() {
   return (
     <>
-      <AnimatedDiv>
+
         <Navbar />
         <Cover />
         <Technology />
         <Space />
         <Staff />
         <Footer />
-      </AnimatedDiv>
+ 
     </>
   );
 }
