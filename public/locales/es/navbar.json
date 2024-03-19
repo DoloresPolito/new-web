@@ -1,9 +1,8 @@
 {
-    "cero":"TALLERES",
-      "one": "TRAVEL AND WORKSHOPS",
-      "two": "TRAYECTORIA",
-      "three": "CONTACTO",
-      "four":"HOTELES",
-      "spanish": "ESPAÑOL",
-      "english":"ENGLISH"
-    }
+  "cero": "procedimientos",
+  "one": "staff",
+  "two": "contacto",
+  "three": "espacio",
+  "spanish": "ESPAÑOL",
+  "english": "INGLÉS"
+}

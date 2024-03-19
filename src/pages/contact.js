@@ -6,37 +6,38 @@ import Navbar from "@/structure/Navbar";
 import Footer from "@/structure/Footer";
 import AnimatedDiv from "@/components/AnimatedDiv";
 
-function About() {
-  const { t: translate } = useTranslation("about");
+function Contact() {
+  const { t: translate } = useTranslation("contact");
 
   return (
     <>
       <AnimatedDiv>
         <Navbar />
-        <AboutSection>
-          <AboutContainer>
-            <p>{translate("text")}</p>
-          </AboutContainer>
-        </AboutSection>
+        <ContactSection>
+          <ContactContainer>
+            <p>{translate("title")}</p>
+          </ContactContainer>
+        </ContactSection>
 
         <Footer />
       </AnimatedDiv>
     </>
   );
 }
-const AboutSection = styled(Section)`
+
+const ContactSection = styled(Section)`
   height: 100vh;
   background-color: white;
 `;
 
-const AboutContainer = styled(Container)``;
+const ContactContainer = styled(Container)``;
 
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["about"])),
+      ...(await serverSideTranslations(locale, ["contact"])),
     },
   };
 }
 
-export default About;
+export default Contact;

@@ -11,6 +11,12 @@ const GlobalStyles = createGlobalStyle`
     /* background: #191B23; */
     overflow-x: hidden;
     width: 100vw;
+    
+  overscroll-behavior-y: contain; 
+  background-color: #ece8e5;
+
+  overflow-x: hidden;
+    width: 100vw;
   }
 
   code {
